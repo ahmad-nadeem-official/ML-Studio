@@ -35,6 +35,8 @@ try:
   vis = st.sidebar.multiselect("Select columns to visualize",df1.columns.tolist(),label_visibility="collapsed",)
   df = df1[vis]
   
+
+  st.sidebar.header("Train Test spliting parameters",divider="gray")
   st.sidebar.subheader("Select target variable(Y intercept)")
   Target = st.sidebar.selectbox("Target Variable", df1.columns.tolist(), label_visibility="collapsed")
   x = df1.drop(Target, axis=1)
