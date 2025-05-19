@@ -53,7 +53,8 @@ If your CSV is not cleaned yet, no problem! Use my **Google Colab Data Cleaning 
 - Normalize data
 - Export cleaned CSV directly
 
-👉 [Click here to open the Data Cleaning Tool on Google Colab](https://github.com/ahmad-nadeem-official/Titanic-data-science-pipeline)  
+👉 [Click here to open the Data Cleaning Tool on Google Colab](https://colab.research.google.com/drive/1KZCEK9QvUOiA0k7trgc_SGiS8KX-k5Vs#scrollTo=MQ3PfMsi9Kph)
+                  
 *(You only need to upload your file and choose cleaning options—no coding required!)*
 
 """)
