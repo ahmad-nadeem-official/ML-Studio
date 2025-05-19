@@ -35,8 +35,8 @@ with st.sidebar.expander("⚠️ Important: Prepare Your Data Before Training"):
 This ML Studio is designed **only for training machine learning models**. It does **not perform any automatic data cleaning**.
 
 To get the best results:
-- ✅ Make sure your CSV is **cleaned, preprocessed, and ready for modeling**.
-- 🧼 Your data should have:
+  - Make sure your CSV is **cleaned, preprocessed, and ready for modeling**.
+  - Your data should have:
   - No missing values (or properly handled)
   - No irrelevant or duplicate columns
   - Balanced and properly encoded categorical features
@@ -53,7 +53,7 @@ If your CSV is not cleaned yet, no problem! Use my **Google Colab Data Cleaning 
 - Normalize data
 - Export cleaned CSV directly
 
-👉 [Click here to open the Data Cleaning Tool on Google Colab](https://colab.research.google.com/drive/1SAMPLE_LINK)  
+👉 [Click here to open the Data Cleaning Tool on Google Colab](https://github.com/ahmad-nadeem-official/Titanic-data-science-pipeline)  
 *(You only need to upload your file and choose cleaning options—no coding required!)*
 
 """)
