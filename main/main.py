@@ -27,6 +27,38 @@ st.write(
     "This is a machine learning studio that allows you to upload a CSV file, visualize the data, and train a machine learning model."
 )
 
+#precautions
+with st.sidebar.expander("⚠️ Important: Prepare Your Data Before Training"):
+    st.markdown("""
+### 📌 Before You Upload Your Dataset:
+
+This ML Studio is designed **only for training machine learning models**. It does **not perform any automatic data cleaning**.
+
+To get the best results:
+- ✅ Make sure your CSV is **cleaned, preprocessed, and ready for modeling**.
+- 🧼 Your data should have:
+  - No missing values (or properly handled)
+  - No irrelevant or duplicate columns
+  - Balanced and properly encoded categorical features
+  - Standardized or normalized numerical data
+
+---
+
+### 🚀 Need Help Cleaning Your Dataset?
+
+If your CSV is not cleaned yet, no problem! Use my **Google Colab Data Cleaning Tool** where you can:
+- Drop columns
+- Handle missing values
+- Encode categorical variables
+- Normalize data
+- Export cleaned CSV directly
+
+👉 [Click here to open the Data Cleaning Tool on Google Colab](https://colab.research.google.com/drive/1SAMPLE_LINK)  
+*(You only need to upload your file and choose cleaning options—no coding required!)*
+
+""")
+
+
 # '''dataset selection'''
 st.sidebar.title("Upload CSV File")
 uploaded_file = st.sidebar.file_uploader(
