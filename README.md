@@ -34,8 +34,7 @@ This README is your gateway to understanding the power of ML Studio and why itâ€
 
 Watch ML Studio in action! This quick demo showcases how to upload a dataset, explore visualizations, select a model, tune hyperparameters, and download a trained model.
 
-\[Insert Video Demo Link Here\]  
-_Note: A demo video will be added soon to highlight ML Studioâ€™s capabilities. Stay tuned for a visual walkthrough!_
+https://github.com/user-attachments/assets/b26c5434-b778-4402-8b6b-942524338f46
 
 * * *
 
