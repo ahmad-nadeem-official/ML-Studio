@@ -141,8 +141,8 @@ Ready to dive into ML Studio? Follow these steps to set it up and start training
 
 1.  **Clone the Repository**
     
-        git clone https://github.com/yourusername/ml-studio.git
-        cd ml-studio
+        https://github.com/ahmad-nadeem-official/ML-Studio.git
+        cd ML-studio
     
 2.  **Install Dependencies**
     
@@ -150,7 +150,7 @@ Ready to dive into ML Studio? Follow these steps to set it up and start training
     
 3.  **Run the Application**
     
-        streamlit run ml_studio.py
+        streamlit run main.py
     
 4.  **Access ML Studio**  
     Open your browser and navigate to http://localhost:8501. Upload your dataset, and start training! 🚀
