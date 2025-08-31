@@ -272,6 +272,7 @@ try:
               mime="application/octet-stream"
           ) 
   elif model == "Random Forest (Regressor)":
+    try:  
       def objective(trial):
          params = {
              'n_estimators': trial.suggest_int('n_estimators', 50, 300),
@@ -340,7 +341,8 @@ try:
               file_name="random_forest_regressor.pkl",
               mime="application/octet-stream"
           )
-
+    except Exception as e:
+        st.error(f"An error occurred: {e}")
   elif model == "Logistic Regression":
       def objective(trial):
         params = {
